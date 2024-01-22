@@ -1,0 +1,28 @@
+{
+  "name": "cypress_automationteststore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "triggerAllTests-headless": "cypress run",
+    "triggerAllTests-headed": "cypress run --headed",
+    "triggerAllTests-chrome": "cypress run --browser chrome",
+    "triggerAllTests-firefox": "cypress run --browser firefox --headed",
+    "triggerAllTests-autostore-dashboard": "cypress run --spec cypress/e2e/automation_test_store/*  --record --key 876fe1b8-be6b-49f6-a01d-77a8a146c459",
+    "triggerAllTests-autoTestStore": "cypress run --spec cypress/e2e/automation_test_store/*",
+    "cypress-multi-browser": "npm run triggerAllTests-autoTestStore -- --browser electron --headed & npm run triggerAllTests-autoTestStore -- --browser edge --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.7.0"
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress-mochawesome-reporter": "^3.8.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}

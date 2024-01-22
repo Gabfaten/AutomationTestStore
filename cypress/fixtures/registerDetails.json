@@ -1,0 +1,17 @@
+{   
+    "firstName": "faten",
+    "lastName": "gabouch",
+    "email": "faten@yahoo.fr",
+    "tel":"+21620456236", 
+    "fax":"+216 71534442", 
+    "company":"ezee it", 
+    "adress":"13 rue des oliviers cité el jinene", 
+    "adress2":"13 rue des oliviers cité el jinene", 
+    "city":"oued ellil", 
+    "state":"Manouba", 
+    "zipcode":"2021",
+    "country":"Tunisia", 
+    "loginName":"FatenG", 
+    "password":"1234", 
+    "pswdConfirm":"1234"  
+}
